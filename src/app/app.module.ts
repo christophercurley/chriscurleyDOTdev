@@ -8,6 +8,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SocialMediaLinksComponent } from './components/social-media-links/social-media-links.component';
+import { IntroComponent } from './components/intro/intro.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { SocialMediaLinksComponent } from './components/social-media-links/socia
     FooterComponent,
     HeaderComponent,
     SocialMediaLinksComponent,
+    IntroComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],
