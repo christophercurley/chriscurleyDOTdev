@@ -9,6 +9,7 @@ import { HeaderComponent } from './shared/header/header.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SocialMediaLinksComponent } from './components/social-media-links/social-media-links.component';
 import { IntroComponent } from './components/intro/intro.component';
+import { PortraitComponent } from './components/portrait/portrait.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { IntroComponent } from './components/intro/intro.component';
     HeaderComponent,
     SocialMediaLinksComponent,
     IntroComponent,
+    PortraitComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],
