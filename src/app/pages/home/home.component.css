@@ -1,16 +1,11 @@
-p {
-  /* margin: 0; */
-}
-
 .home-container {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: center;
   width: 100vw;
   max-width: 1000px;
-  height: auto;
+  height: 100vh;
   /* border: 1px red solid; */
+  background-color: rgb(32, 32, 32);
 }
 
 .home-container > * {

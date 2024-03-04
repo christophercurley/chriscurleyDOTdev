@@ -1,0 +1,16 @@
+.social-media-links {
+  display: flex;
+  top: 0;
+}
+
+::ng-deep fa-icon svg {
+  color: rgb(195, 195, 195);
+  margin: 1.6rem;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+::ng-deep fa-icon svg:hover,
+::ng-deep fa-icon svg:active {
+  transform: scale(1.4);
+  color: white;
+}
