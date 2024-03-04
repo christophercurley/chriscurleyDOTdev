@@ -1,0 +1,48 @@
+p {
+  /* margin: 0; */
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  max-width: 1000px;
+  height: auto;
+  /* border: 1px red solid; */
+}
+
+.home-container > * {
+  /* border: 1px green solid; */
+}
+
+.intro-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  /* border: 1px red solid; */
+}
+
+.intro-container > div {
+  /* border: 1px green solid; */
+  /* margin-bottom: 0.5rem; */
+}
+
+.intro {
+  font-size: 1.7rem;
+  width: auto;
+}
+
+.intro-divider {
+  background-color: navy;
+  height: 0.25rem;
+  width: 40%;
+  max-width: 140px;
+}
+
+.about-me {
+  width: 90%;
+}
