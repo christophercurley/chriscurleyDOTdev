@@ -1,10 +1,7 @@
 import { Component } from '@angular/core';
-import {
-  IconDefinition,
-  faGithub,
-  faLinkedin,
-} from '@fortawesome/free-brands-svg-icons';
-import { URLS } from '../../constants';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+import { URLS, EMAIL_ADDRESS } from '../../constants';
 
 @Component({
   selector: 'app-social-media-links',
@@ -14,5 +11,7 @@ import { URLS } from '../../constants';
 export class SocialMediaLinksComponent {
   faGithub = faGithub;
   faLinkedin = faLinkedin;
+  faEnvelope = faEnvelope;
   urls = URLS;
+  email = EMAIL_ADDRESS;
 }
