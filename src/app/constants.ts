@@ -3,4 +3,4 @@ export const URLS = {
   linkedin: 'https://www.linkedin.com/in/chricurl/',
 };
 
-export const EMAIL_ADDRESS = 'christopherrcurley@gmail.com';
+export const EMAIL_ADDRESS = 'christopherrcurley&#64;gmail.com';
