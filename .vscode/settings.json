@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "/subscriptions/b54ca7e7-eced-4616-8cd9-3dae711f1fad/resourceGroups/chriscurleyDev_group/providers/Microsoft.Web/sites/chriscurleyDev",
+  "appService.deploySubpath": "dist\\chriscurleydotdev"
+}
