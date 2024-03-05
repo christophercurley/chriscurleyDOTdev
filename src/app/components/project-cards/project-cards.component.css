@@ -1,0 +1,11 @@
+.project-card {
+  width: 300px;
+  height: 500px;
+  background-color: rgb(243, 90, 184);
+  border-radius: 5px;
+  cursor: grab;
+}
+
+.grabbing {
+  cursor: grabbing !important;
+}

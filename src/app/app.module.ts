@@ -10,6 +10,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SocialMediaLinksComponent } from './components/social-media-links/social-media-links.component';
 import { IntroComponent } from './components/intro/intro.component';
 import { PortraitComponent } from './components/portrait/portrait.component';
+import { ProjectCardsComponent } from './components/project-cards/project-cards.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { PortraitComponent } from './components/portrait/portrait.component';
     SocialMediaLinksComponent,
     IntroComponent,
     PortraitComponent,
+    ProjectCardsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],
