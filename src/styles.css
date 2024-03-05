@@ -18,7 +18,7 @@ body {
   font-weight: 400;
   font-size: 1.5rem;
   color: white;
-  background-color: rgb(0, 0, 0);
+  /* background-color: rgb(0, 0, 0); */
 }
 
 .main-content-container {
@@ -28,4 +28,34 @@ body {
   max-width: 100%;
   height: auto;
   /* border: aquamarine 5px dotted; */
+}
+
+:root {
+  --gradient1: linear-gradient(
+    45deg,
+    #845ec2,
+    #d65db1,
+    #ff6f91,
+    #ff9671,
+    #ffc75f,
+    #f9f871
+  );
+}
+
+.bgimg {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: var(--gradient1);
+  background-size: 600%;
+  height: auto;
+  animation: bg-animation 40s infinite alternate;
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
 }
