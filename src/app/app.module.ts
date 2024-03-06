@@ -11,6 +11,7 @@ import { SocialMediaLinksComponent } from './components/social-media-links/socia
 import { IntroComponent } from './components/intro/intro.component';
 import { PortraitComponent } from './components/portrait/portrait.component';
 import { ProjectCardsComponent } from './components/project-cards/project-cards.component';
+import { ProjectCardComponent } from './components/project-card/project-card.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { ProjectCardsComponent } from './components/project-cards/project-cards.
     IntroComponent,
     PortraitComponent,
     ProjectCardsComponent,
+    ProjectCardComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],

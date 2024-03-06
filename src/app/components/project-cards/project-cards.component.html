@@ -1,11 +1,3 @@
-<div class="project-cards-container">
-  <a href="">
-    <div class="project-card"></div>
-  </a>
-  <a href="">
-    <div class="project-card"></div>
-  </a>
-  <a href="">
-    <div class="project-card"></div>
-  </a>
+<div class="project-cards-container" *ngFor="let project of projects">
+  <app-project-card [project]="project"></app-project-card>
 </div>
