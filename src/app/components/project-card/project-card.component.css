@@ -1,12 +1,53 @@
+a {
+  text-decoration: none;
+}
+
+.logo {
+  margin-top: 1rem;
+  height: 60px;
+}
+
+.logo img {
+  max-width: 150px;
+}
+
+.screenshot img {
+  border-radius: 5px;
+  max-width: 275px;
+}
+
+.description {
+  width: 90%;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+}
+
 .project-card {
   width: 300px;
   height: 500px;
-  background-color: rgb(243, 90, 184);
   border-radius: 5px;
   margin: 1.5rem 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+    35deg,
+    #845ec2,
+    #d65db1,
+    #ff6f91,
+    #ff9671,
+    #ffc75f,
+    #f9f871
+  );
+  box-shadow: 3px 1px 1px rgba(124, 124, 124, 0.295);
 }
 
 .project-card:hover {
   transform: scale(1.2);
+  box-shadow: none;
 }

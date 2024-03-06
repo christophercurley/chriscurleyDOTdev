@@ -1,5 +1,15 @@
 <div *ngIf="project">
   <a [href]="project.url">
-    <div class="project-card"></div>
+    <div class="project-card">
+      <div class="logo">
+        <img [src]="project.logoPath" [alt]="project.name" />
+      </div>
+      <div class="screenshot">
+        <img [src]="project.screenshotPath" [alt]="project.name" />
+      </div>
+      <div class="description">
+        {{ project.description }}
+      </div>
+    </div>
   </a>
 </div>
