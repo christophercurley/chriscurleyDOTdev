@@ -1,15 +1,33 @@
 <div *ngIf="project">
-  <a [href]="project.url">
-    <div class="project-card">
-      <div class="logo">
-        <img [src]="project.logoPath" [alt]="project.name" />
+  <ng-container *ngIf="project.isInternal; else externalLink">
+    <a [routerLink]="project.url">
+      <div class="project-card">
+        <div class="logo">
+          <img [src]="project.logoPath" [alt]="project.name" />
+        </div>
+        <div class="screenshot">
+          <img [src]="project.screenshotPath" [alt]="project.name" />
+        </div>
+        <div class="description">
+          {{ project.description }}
+        </div>
       </div>
-      <div class="screenshot">
-        <img [src]="project.screenshotPath" [alt]="project.name" />
+    </a>
+  </ng-container>
+
+  <ng-template #externalLink>
+    <a [href]="project.url">
+      <div class="project-card">
+        <div class="logo">
+          <img [src]="project.logoPath" [alt]="project.name" />
+        </div>
+        <div class="screenshot">
+          <img [src]="project.screenshotPath" [alt]="project.name" />
+        </div>
+        <div class="description">
+          {{ project.description }}
+        </div>
       </div>
-      <div class="description">
-        {{ project.description }}
-      </div>
-    </div>
-  </a>
+    </a>
+  </ng-template>
 </div>

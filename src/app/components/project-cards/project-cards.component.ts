@@ -11,6 +11,7 @@ export class ProjectCardsComponent {
     {
       name: 'ngFlix',
       url: 'https://ngflix.chriscurley.dev',
+      isInternal: false,
       screenshotPath: '../../../assets/screenshots/ngflix.png',
       logoPath: '../../../assets/logos/ngflixLogo.png',
       description:
@@ -19,6 +20,7 @@ export class ProjectCardsComponent {
     {
       name: 'Calculator',
       url: 'calculator',
+      isInternal: true,
       screenshotPath: '../../../assets/screenshots/calculator.png',
       logoPath: '',
       description:
@@ -27,6 +29,7 @@ export class ProjectCardsComponent {
     {
       name: 'www.chriscurley.dev',
       url: '/',
+      isInternal: true,
       screenshotPath: '../../../assets/screenshots/chriscurleyDOTdev.png',
       logoPath: '',
       description:
