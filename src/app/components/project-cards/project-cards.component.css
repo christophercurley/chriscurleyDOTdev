@@ -1,11 +1,20 @@
+.project-cards-container {
+  width: 100vw;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 .project-card {
   width: 300px;
   height: 500px;
   background-color: rgb(243, 90, 184);
   border-radius: 5px;
-  cursor: grab;
+  margin: 1.5rem 0;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.grabbing {
-  cursor: grabbing !important;
+.project-card:hover {
+  transform: scale(1.2);
 }
