@@ -19,7 +19,7 @@ export class ProjectCardsComponent {
     {
       name: 'Calculator',
       url: 'calculator',
-      screenshotPath: '',
+      screenshotPath: '../../../assets/screenshots/calculator.png',
       logoPath: '',
       description:
         'A clone of the iOS calculator, created with only Vanilla JS and HTML/CSS.',

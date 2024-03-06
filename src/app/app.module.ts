@@ -12,6 +12,7 @@ import { IntroComponent } from './components/intro/intro.component';
 import { PortraitComponent } from './components/portrait/portrait.component';
 import { ProjectCardsComponent } from './components/project-cards/project-cards.component';
 import { ProjectCardComponent } from './components/project-card/project-card.component';
+import { CalculatorComponent } from './pages/calculator/calculator.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { ProjectCardComponent } from './components/project-card/project-card.com
     PortraitComponent,
     ProjectCardsComponent,
     ProjectCardComponent,
+    CalculatorComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],

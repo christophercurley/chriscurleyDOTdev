@@ -1,0 +1,75 @@
+html {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: black;
+}
+
+p {
+  pointer-events: none;
+}
+
+.screen {
+  height: 200px;
+  width: 360px;
+  background-color: black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.screen p {
+  margin-bottom: 10px;
+  margin-right: 25px;
+  color: white;
+  font-size: 85px;
+  font-family: Helvetica, sans-serif;
+  pointer-events: all;
+}
+
+.buttonRow {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button {
+  height: 80px;
+  width: 80px;
+  margin: 5px;
+  border-radius: 50%;
+  background-color: rgb(54, 54, 54);
+  color: white;
+  font-size: xx-large;
+  font-family: Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.double {
+  width: 170px;
+  border-radius: 50px;
+}
+
+.format {
+  background-color: gray;
+}
+
+.format p {
+  color: black;
+}
+
+#ac {
+  color: black;
+}
+
+.function {
+  background-color: orange;
+}
